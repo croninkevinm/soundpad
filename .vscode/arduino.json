@@ -1,6 +1,8 @@
 {
-    "sketch": "soundpad.ino",
+    "sketch": "src\\soundpad.ino",
     "board": "arduino:avr:mega",
     "configuration": "cpu=atmega2560",
-    "output": "build"
+    "output": "build",
+    "port": "COM4",
+    "programmer": "AVR ISP"
 }
